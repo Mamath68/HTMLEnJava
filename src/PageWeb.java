@@ -38,7 +38,6 @@ public class PageWeb {
         page.addTag(new Img());
         page.addTag(new Link());
         UtilsHTML.writeHTMLToIndex(page.toHTML());
-        System.out.println("Page générée dans index.html");
     }
 
     public void addTag(Tag t) {
